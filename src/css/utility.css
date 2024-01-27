@@ -1,22 +1,41 @@
-
-.border{
-    border: 2px solid red;
+.border {
+    border: 2px solid #1db954; /* Spotify green border */
     margin: 3px;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.justify-centre{
+.justify-center {
     justify-content: center;
 }
 
-.item-centre{
-    align-items: center; 
+.item-center {
+    align-items: center;
 }
 
+.home ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
-.home ul li{
+.home ul li {
     width: 34px;
+    height: 34px;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #1db954; /* Spotify green border */
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    background-color: #191414; /* Dark background similar to Spotify */
+    color: #ffffff; /* White text color */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.home ul li:hover {
+    background-color: #1db954; /* Lighter green on hover */
+    color: #ffffff; /* Text color on hover */
 }
