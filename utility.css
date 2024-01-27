@@ -1,0 +1,22 @@
+
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-centre{
+    justify-content: center;
+}
+
+.item-centre{
+    align-items: center; 
+}
+
+
+.home ul li{
+    width: 34px;
+}
